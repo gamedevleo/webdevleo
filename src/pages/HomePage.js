@@ -21,11 +21,11 @@ const HomePage = () =>
     </div>
     <div className="about">
       <div className="content">
-        <p>Hi, I am Kaiyang. I completed my Bachelor's degree in game programming at <a href='https://www.ait.edu.au/'>AIT</a>(Academy of Information Technology) in March,2020.<br />
+        <p>Hi, I am Kaiyang. I completed my Bachelor's degree in game programming at AIT(Academy of Information Technology) in March,2020.<br />
          I am a faster learner and learning new techniques quickly, as well as having good communication skills. I am loofing for a react developer now.
         </p>
-        <p>I am a self-motivated graduate developer. Apply for the developer position. I
-        am keen to learn new knowledge that can solve problems. Usually I spend most
+        <p>I am a self-motivated graduate developer. I
+        am keen to learn new knowledge that can solve problems. Usually, I spend most
         of my time on books and tutorials, I typed all the code in tutorials and books to
         learn. As a fast learner, I am confident to work in a new environment and use
         everything I learned to do all the tasks.

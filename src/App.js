@@ -4,10 +4,10 @@ import NavBar from './components/NavBar.js';
 import './css/App.css';
 
 import HomePage from './pages/HomePage.js';
-import ResumePage from './pages/ResumePage.js';
 import ProjectsPage from './pages/ProjectsPage.js';
 import NotFoundPage from './pages/NotFoundPage.js';
 import WeatherApp from './pages/WeatherApp.js';
+import {Clock} from './pages/ClockPage';
 
 function App(){
   return (
@@ -17,11 +17,10 @@ function App(){
         <div className='content'>
           <Switch>
             <Route path='/' component={HomePage} exact/>
-            <Route path='/resume' component={ResumePage}/>
             <Route path='/projects' component={ProjectsPage}/>
             <Route path='/weatherapp' component={WeatherApp}/>
+            <Route path='/clock' component={Clock} />
             <Route component={NotFoundPage}/>
-
           </Switch>
         </div>
       </div>

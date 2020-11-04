@@ -1,25 +1,34 @@
-#navigator{
-  display: block;
-  background-color: gray;
-}
-ul{
-  list-style-type: none;
+#navigator ul{
   margin:0;
   padding: 0;
-  overflow: hidden;
+  display: flex;
+  background-color: #ddd;
+  width:100%;
 }
-li{
-  display: inline;
-  float:left;
+#navigator ul li {
+  list-style: none;
+  padding:  10px 20px;
 }
-#navigator a{
-  text-decoration: none;
-  display: block;
-  padding: 8px;
-  font-size: 1.2em;
+#navigator ul li a{
   font-family: 'Fredoka One', cursive;
-  color:white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 2em;
+  color:#262626;
+  position: relative;
 }
-#navigator a:hover{
-  background-color: rgba(0,123,1,0.5);
+#navigator ul li a:before{
+  content: '';
+  width: 0;
+  height: 5px;
+  background: rgba(200,100,100,1);
+  position:absolute;
+  top:100%;
+  left:0;
+  transition: 0.5s;
+}
+
+#navigator ul li:hover a:before{
+  width:50%;
+  transform: translateX(100%);
 }
