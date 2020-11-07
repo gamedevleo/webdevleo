@@ -6,7 +6,7 @@ export const WeatherApp = () => {
   const [input,setInput] =useState('');
   const [currentTime,setCurrentTime] = useState(new Date());
   const [weather,setWeather] =useState({
-    apiKey:"2b5c476d4a0820aa497a3af35a76347c",
+    apiKey:"6238424f68cf6baf63e40ee8d7054852",
     coords:null,
     description:'',
     temperature:{
@@ -158,7 +158,7 @@ export const WeatherApp = () => {
       <h3>Wind: {weather.wind} km/h</h3>
       <h3>Sunrise:{time(new Date(weather.sunrise*1000))} am / Sunset:{time(new Date(weather.sunset*1000))} pm</h3>
       {// <h2>{JSON.stringify(weather)}</h2>
-  }
+      }
 
     </div>
   )
