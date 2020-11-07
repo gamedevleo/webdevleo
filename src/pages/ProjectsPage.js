@@ -17,10 +17,7 @@ const ProjectsPage = () =>(
         <p>This is a Clock!</p>
         <Link to='/clock'>Clock</Link>
       </div>
-
-      
     </div>
-
   </div>
 )
 

@@ -36,7 +36,7 @@ export const WeatherApp = () => {
   weekDay[6] = 'Saturday';
 
   const getWeatherByCoords = ()=>{
-    let api=`http://api.openweathermap.org/data/2.5/weather?lat=${weather.coords.latitude}&lon=${weather.coords.longitude}&appid=${weather.apiKey}`;
+    let api=`//api.openweathermap.org/data/2.5/weather?lat=${weather.coords.latitude}&lon=${weather.coords.longitude}&appid=${weather.apiKey}`;
     axios.get(api).then(res=>{
             const data = res.data;
             return data;
@@ -64,7 +64,7 @@ export const WeatherApp = () => {
 
 
   const getWeatherByCity = ()=>{
-    let api =`http://api.openweathermap.org/data/2.5/weather?q=${input}&appid=${weather.apiKey}`;
+    let api =`//api.openweathermap.org/data/2.5/weather?q=${input}&appid=${weather.apiKey}`;
     axios.get(api)
       .then(res=>{
         let data = res.data;
