@@ -6,7 +6,7 @@ import './css/App.css';
 import HomePage from './pages/HomePage.js';
 import ProjectsPage from './pages/ProjectsPage.js';
 import NotFoundPage from './pages/NotFoundPage.js';
-import WeatherApp from './pages/WeatherApp.js';
+import {WeatherApp} from './pages/WeatherApp.js';
 import {Clock} from './pages/ClockPage';
 
 function App(){

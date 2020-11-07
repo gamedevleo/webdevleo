@@ -17,14 +17,8 @@ const ProjectsPage = () =>(
         <p>This is a Clock!</p>
         <Link to='/clock'>Clock</Link>
       </div>
-      <div className='project4 item'>
-        <p>This is a project!!!!</p>
-        <Link to='/weatherapp'>WeatherApp</Link>
-      </div>
-      <div className='project5 item'>
-        <p>This is a project!!!!</p>
-        <Link to='/weatherapp'>WeatherApp</Link>
-      </div>
+
+      
     </div>
 
   </div>
