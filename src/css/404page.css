@@ -1,0 +1,62 @@
+.notfoundpage{
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(135deg,#03a9f4,#03a9f4 50%,#333 50%,#333);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.notfoundpage h2{
+  color: white;
+  font-size: 16em;
+  text-shadow: -25px 20px 30px rgba(0,0,0,0.5),
+               -10px 10px 0px rgba(255,255,255,0.5),
+               -20px 20px 0px rgba(255,255,255,0.2),
+               -30px 30px 0px rgba(255,255,255,0.1);
+}
+
+.notfoundpage h2 .zero{
+  position:relative;
+  display: inline-block;
+  width:200px;
+  height:200px;
+  background: linear-gradient(to bottom,#fff,#777);
+  border-radius: 50%;
+  margin:0 15px;
+  box-shadow: -25px 25px 40px rgba(0,0,0,0.5);
+}
+
+.notfoundpage h2 .zero::before{
+  content:'';
+  position:absolute;
+  height: 180px;
+  width: 180px;
+  top:50%;
+  right:0;
+  transform: translateY(-50%);
+  background:linear-gradient(to top,#fff,#777);
+  border-radius: 50%;
+}
+
+.notfoundpage h2 .zero::after{
+  content:'';
+  position:absolute;
+  height: 100px;
+  width: 100px;
+  top:50%;
+  left:55%;
+  transform: translate(-50%,-50%);
+  background: linear-gradient(135deg,#03a9f4,#03a9f4 50%,#333 50%,#333);
+  border-radius: 50%;
+  box-shadow: inset 0px 0px 40px rgba(0,0,0,1);
+  animation: animate 3s steps(100) infinite;
+}
+@keyframes animate{
+  0%{
+    transform:translate(-50%,-50%) rotate(0deg);
+  }
+  100%{
+    transform:translate(-50%,-50%) rotate(360deg);
+  }
+}

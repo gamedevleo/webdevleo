@@ -17,6 +17,14 @@ const ProjectsPage = () =>(
         <p>This is a Clock!</p>
         <Link to='/clock'>Clock</Link>
       </div>
+      <div className='project4 item'>
+        <p>This is a flex!</p>
+        <Link to='/flex'>Flexbox</Link>
+      </div>
+      <div className='project5 item'>
+        <p>This is a menu!</p>
+        <Link to='/menu'>Menu</Link>
+      </div>
     </div>
   </div>
 )

@@ -1,9 +1,17 @@
+#navigator{
+  display:;
+  width: 100vw;
+  position:fixed;
+  top:0px;
+  left:0px;
+  background:#ddd;
+}
+
 #navigator ul{
   margin:0;
   padding: 0;
   display: flex;
-  background-color: #ddd;
-  width:100%;
+
 }
 #navigator ul li {
   list-style: none;

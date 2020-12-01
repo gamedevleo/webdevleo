@@ -1,0 +1,65 @@
+.MenuContainer nav{
+  margin:0 auto;
+  width: 100%;
+  background: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+.MenuContainer ul{
+  background: #ada;
+  width: 100%;
+  list-style-type: none;
+  padding: 0;
+}
+.MenuContainer li{
+  /* flex:1 1 0; */
+}
+.MenuContainer nav a{
+  text-decoration: none;
+  text-align: center;
+  display: block;
+  padding: 10px;
+}
+
+.MenuContainer a:hover{
+  background: #ddd;
+}
+.MenuContainer .four{
+  justify-content: flex-end;
+}
+
+.MenuContainer .social a{
+  text-indent: -1000000px;
+}
+.MenuContainer a.github{
+  background: url(../../images/github.png) no-repeat center;
+  background-size: 100%;
+}
+.MenuContainer a.linkedin{
+  background: url(../../images/linkedin.png) no-repeat center;
+  background-size: 100%;
+}
+.MenuContainer .social{
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (min-width:768px){
+  .MenuContainer nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .MenuContainer nav ul{
+    display: flex;
+    flex-direction: row;
+    flex:1 1 0;
+  }
+  .MenuContainer .social{
+    justify-content: flex-end;
+  }
+
+
+}

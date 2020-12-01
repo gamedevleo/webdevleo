@@ -8,6 +8,8 @@ import ProjectsPage from './pages/ProjectsPage.js';
 import NotFoundPage from './pages/NotFoundPage.js';
 import {WeatherApp} from './pages/WeatherApp.js';
 import {Clock} from './pages/ClockPage';
+import {Flex} from './components/flex';
+import {Menu} from './components/practice/Menu';
 
 function App(){
   return (
@@ -20,6 +22,8 @@ function App(){
             <Route path='/projects' component={ProjectsPage}/>
             <Route path='/weatherapp' component={WeatherApp}/>
             <Route path='/clock' component={Clock} />
+            <Route path='/flex' component={Flex} />
+            <Route path='/menu' component={Menu} />
             <Route component={NotFoundPage}/>
           </Switch>
         </div>

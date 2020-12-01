@@ -1,13 +1,13 @@
 #container{
-  /* background-color: ; */
-  margin:5em;
-  padding: 10px;
+  overflow: hidden;
   background-image: url(../images/background.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 10px;
   font-size: 1.2em;
   display: flex;
+  justify-content: center;
+  align-items: center;
   flex-direction:column;
 }
 #header{

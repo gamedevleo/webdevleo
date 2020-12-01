@@ -1,0 +1,23 @@
+.flexContainer{
+  display: flex;
+  background: white;
+  width:100%;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+.box{
+  height: 100px;
+  min-width: 200px;
+  /* shorthand for flex-grow   flex-shrink  flex-basis */
+  flex: 1 0 100px;
+}
+.one{
+  background: red;
+}
+.two{
+  background: green;
+}
+.three{
+  background: blue;
+}
